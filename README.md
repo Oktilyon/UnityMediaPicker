@@ -11,7 +11,8 @@ Image picker for Unity iOS/Android
 
 ## Getting Started
 
-This extension is based on : https://github.com/thedoritos/unimgpicker
+This extension is based on : https://github.com/thedoritos/unimgpicker.
+
 For camera part : https://medium.com/@datdeveloper/how-to-make-android-plugin-for-unity-take-photo-from-camera-and-gallery-c12fe247c770
 
 ## Demo
