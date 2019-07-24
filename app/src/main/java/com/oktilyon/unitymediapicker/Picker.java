@@ -21,7 +21,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 public class Picker extends Fragment {
-    private static final String TAG = "Picker";
+    private static final String TAG = "unitymediapicker";
     private static final int REQUEST_CODE = 1;
     private static final int RESULT_LOAD_IMAGE = 1333;
     private static final int RESULT_TAKE_NEW = 1337;

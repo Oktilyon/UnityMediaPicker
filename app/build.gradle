@@ -44,6 +44,9 @@ task cleanJar(type: Delete) {
 //task to export contents as jar
 task exportJar(type: Copy) {
     from('build/intermediates/packaged-classes/release/')
+    exclude '**/BuildConfig.class'
+    exclude '**/R.class'
+    exclude '*/R$.class'
     into('release/')
     include('classes.jar')
     rename('classes.jar', 'UnityMediaPicker.jar')
